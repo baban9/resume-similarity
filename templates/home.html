@@ -18,8 +18,8 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-      <input type="text" name="interview_score3" placeholder="Maximum Wind Speed" required="required" /><br>
-    	<input type="text" name="experience" placeholder="Maximum Temperature" required="required" /><br>
+      <input type="text" name="interview_score3" placeholder="Enter your Resume here" required="required" /><br>
+    	<input type="text" name="experience" placeholder="Enter the job description" required="required" /><br>
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
